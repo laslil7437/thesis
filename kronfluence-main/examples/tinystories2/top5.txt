@@ -1,0 +1,129 @@
+<<<<<<<<<<Test example 1:
+Lucy was feeling brave. She had heard that the street at the edge of town was the most fun street in the entire city! She wanted to see it for herself, so she got dressed and headed out.
+
+Lucy was excited, but she wasn't sure which way to go. "Can you help me?" she asked a policeman. He smiled and said, "Sure. Follow this street and it will take you there."
+
+Lucy thanked the policeman and set off. As she walked, she could see the trees, buildings and cars getting more and more fun. When she arrived at the street, she saw that it was rough and full of giant puddles, but she was still excited.
+
+Lucy jumped and splashed in every puddle she could find. She couldn't believe how much fun she was having! At the end of the street, she met a boy who was playing on a big slide. Lucy said hello and asked if she could join in.
+
+The boy laughed and said, "Sure, come and follow me!" So the two of them slid down the slide together, laughing and smiling the whole way. When the fun was done, Lucy thanked the boy and waved goodbye. What an adventure!
+
+<<<<<<<<<<Top 5 training examples for test example 1:
+
+-----------------
+Index: 81
+Once upon a time, there was a little girl named Lily who loved to dance. She would dance every day in her room with her favorite teddy bear. One day, Lily saw a sign in the park that said there was going to be a dance party that night. She was so excited and asked her mom if they could go.
+
+That night, Lily and her mom went to the dance party. It was so much fun! They danced and laughed together. But then Lily started to feel cold. Her mom noticed and asked her if she wanted to go home. Lily said yes.
+
+On the way home, Lily's mom explained to her that sometimes when we have too much fun, we forget to take care of ourselves. We need to make sure we stay warm and safe. Lily understood and promised to always take care of herself, even when she's having fun. The end.
+
+-----------------
+Index: 42
+Billy wanted a stick. He spotted a gray one. He ran to it and grabbed it. Then he ran around and around, waving his stick in the air. He was having so much fun.
+
+Then he saw a friend, Jack. Jack had a stick, too. Jack and Billy started playing together. Jack would throw his stick and Billy would run to get it. Billy would then throw it back to Jack. They repeated this for a long time.
+
+Billy and Jack had so much fun that the day went by quickly. When it was time to go home, Billy asked his mom if he could keep his stick. She said yes, so Billy held on tightly to it. He was so happy.
+
+Billy had a wonderful day, and he couldn't wait to go back and find a stick to play with. He knew he'd have even more fun if he could find a friend to help him. All Billy wanted to be was the best stick-repeater ever!
+
+-----------------
+Index: 62
+Once upon a time, there was a happy boy named Mikey. He loved to listen to the birds in the morning. One day, Mikey decided to find a special place to hear the birds really well. So he went to his attic and listened carefully. 
+
+Suddenly, Mikey heard a song from the birds. It was so sweet and amazing. He smiled and danced along with the birds. Then he heard a voice coming from up above. Mikey looked up and saw an owl.
+
+"Mikey, do you like birds?" the owl asked. 
+"Yes!" Mikey answered. "I love to listen to them sing!" 
+
+The owl smiled at Mikey and said, "That's great! I love to listen to them sing too. That's why I'm here - because I want to listen to the singing birds too."
+
+Mikey and the owl were both happy as they listened to the singing birds. They stayed in the attic together and heard the birds until it was time for Mikey to go home.
+
+-----------------
+Index: 0
+Once there was a little girl named Lucy. She loved to bounce around. Everywhere she went, she would bounce. Every morning, when she woke up, the first thing she did was bounce around her room.
+
+One day, Lucy went for a walk in the woods. As she bounced along the path, she started to wonder. She wondered what it would be like to bounce on a cloud. Suddenly, she saw something shiny! It was a trampoline!
+
+She had never seen anything like it before. She was so excited and couldn't wait to try it out. She hopped up and started to bounce. Up, up, up she went!
+
+Lucy had lots of fun bouncing on the trampoline. She was so glad she had found this useful thing. It had made her wonder even more. Where else could she find fun and bouncy things to do?
+
+-----------------
+Index: 9
+Once upon a time, there were two friends, Sam and Jane. Sam liked to play outside and Jane liked to play in her room.
+
+One day, Sam said to Jane, â€œLetâ€™s go to the office!â€ But Jane said, â€œNo, I donâ€™t want to.â€ 
+
+Sam got very sad because he wanted to go to the office. So he said, â€œPlease, Jane! We can have fun!â€ But Jane still said, â€œNo.â€ 
+
+Sam was so disappointed. He said, â€œIâ€™m sorry, Jane, but I donâ€™t agree with you.â€ 
+
+Jane felt bad. She said, â€œIâ€™m sorry too, Sam. Letâ€™s do something else.â€ And they did! They played in Samâ€™s yard and had a great time.
+<<<<<<<<<<Test example 2:
+Once upon a time, there were two clever kids named Max and Mia. They loved to play outside. One day, they found a shiny fork lying in the grass. They picked it up and said, "We can make something fun with this!"
+
+Max and Mia thought hard. Then Mia had a bright idea! She said, "Let’s make a flower!" They took the fork and pressed it into the dirt. They made pretty, pretty shapes that looked like petals. Max and Mia smiled at each other, proud of what they made.
+
+After that, they wanted to make a game. Max said, "Let’s pretend the fork is a magic wand!" They waved the fork and made silly spells. They laughed and spun around, feeling happy. They felt like the best friends ever.
+
+At the end of the day, Max and Mia looked at their flower and the magic wand. They knew they made fun all by themselves. As the sun set, they promised to play again tomorrow with the clever fork!
+
+<<<<<<<<<<Top 5 training examples for test example 2:
+
+-----------------
+Index: 12
+Once upon a time, there was a little girl named Lily. She had a diary where she wrote all her secrets. One day, her little brother asked her what she was writing in her diary. 
+
+Lily said, "It's a secret, I can't tell you."
+
+Her little brother said, "Please, can I see it? I promise I won't do anything harmful."
+
+Lily thought for a moment and then said, "Okay, but you have to promise not to tell anyone."
+
+Her little brother nodded and Lily showed him her diary. He looked at it and said, "Wow, you write really neat. Can I borrow it sometime?"
+
+Lily smiled and said, "Sure, but remember, it's my diary, so don't write anything harmful in it."
+
+Her little brother promised and they both went off to play. From that day on, they shared Lily's diary and it became their harmless secret.
+
+-----------------
+Index: 41
+Once upon a time, there was a little girl named Lily. She loved to play outside in her garden. One day, she saw a tomato plant with lots of red tomatoes on it. She picked one and took a bite. It was juicy and delicious.
+
+Suddenly, she heard a voice. "Brrr! I'm cold!" It was her friend, Teddy the bear. "Why are you shivering, Teddy?" asked Lily. "My coat is broken and I'm feeling cold," replied Teddy.
+
+Lily had an idea. She ran inside and came back with a warm blanket. "Here, Teddy. Wrap yourself in this blanket. You won't shiver anymore," she said. Teddy was very happy and hugged Lily. They both sat down and enjoyed the juicy tomato together.
+
+-----------------
+Index: 80
+Once upon a time, a little boy named Sam lived in a small house. Sam liked to send letters to his friends. He would open the big door and put his letters in the mailbox. Every time he did this, he felt happy. 
+
+One day, Sam wrote a letter to his friend Max. It was an interesting letter because he told Max about a fun game they could play together. He put the letter in the mailbox and said, "I hope Max gets this letter ever so soon!" 
+
+Sam waited and waited by the door. He looked out the window and watched for Max. Finally, he saw Max coming down the street! Sam ran to the door, opened it wide, and said, "You got my letter!" 
+
+Max smiled and said, "Yes! It was the most interesting letter ever!" Sam felt proud. They played the fun game and had the best day ever!
+
+-----------------
+Index: 50
+Once upon a time, in a big field, there was a red poppy. The poppy was sad because it thought it was boring. It wanted to be big and strong like the tall trees.
+
+One day, a little bug came to the poppy. The bug was hungry and wanted to bite the poppy. The poppy was scared, but it tried to be brave. It told the bug, "Please don't bite me, I am just a boring poppy."
+
+The bug looked at the poppy and said, "You are not boring. You are bright and pretty. I will not bite you." The bug flew away to find something else to eat.
+
+The poppy felt happy. It was not boring after all. It was bright and pretty, and it made friends with the other flowers in the field. The poppy was not sad anymore.
+
+-----------------
+Index: 1
+Once upon a time, there were two friends named Ben and Mia. They loved to play together and laugh. One day, Ben said, "Let’s make our own film!" Mia smiled and said, "Yes! Let’s do it!"
+
+They found a big toy box and took out bright toys. They had a light that made everything look pretty. Ben had a red car, and Mia had a blue doll. They played and acted like the car was driving to a fun place. They were very happy.
+
+As they played, they pretended that the toys could talk and laugh themselves. The red car said, "Vroom, vroom! Let’s go fast!" The blue doll said, "Yay! We love to play!" They made funny sounds and had lots of fun.
+
+When the sun began to set, the sky turned a soft orange. Ben and Mia smiled at their fun film. They said, "Let’s watch it again tomorrow!" They put their toys back in the box, feeling happy and excited for more fun days to come.

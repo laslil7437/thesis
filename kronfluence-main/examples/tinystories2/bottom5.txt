@@ -1,0 +1,256 @@
+<<<<<<<<<<Test example 1:
+Lucy was feeling brave. She had heard that the street at the edge of town was the most fun street in the entire city! She wanted to see it for herself, so she got dressed and headed out.
+
+Lucy was excited, but she wasn't sure which way to go. "Can you help me?" she asked a policeman. He smiled and said, "Sure. Follow this street and it will take you there."
+
+Lucy thanked the policeman and set off. As she walked, she could see the trees, buildings and cars getting more and more fun. When she arrived at the street, she saw that it was rough and full of giant puddles, but she was still excited.
+
+Lucy jumped and splashed in every puddle she could find. She couldn't believe how much fun she was having! At the end of the street, she met a boy who was playing on a big slide. Lucy said hello and asked if she could join in.
+
+The boy laughed and said, "Sure, come and follow me!" So the two of them slid down the slide together, laughing and smiling the whole way. When the fun was done, Lucy thanked the boy and waved goodbye. What an adventure!
+
+<<<<<<<<<<Bottom 5 training examples for test example 1:
+
+-----------------
+Index: 66
+Lily and Ben are friends. They like to play in the park. They see a big brown dog. The dog is happy. He wags his tail and runs to them.
+
+"Hi, doggy!" Lily says. She pets the dog. The dog licks her face.
+
+"Can we play with you?" Ben asks. He throws a stick. The dog runs and brings it back.
+
+They play for a long time. The dog is very fast and strong. He can catch and fetch anything.
+
+But then, the dog sees a red ball. The ball belongs to another kid. The dog wants the ball. He runs and grabs it with his teeth.
+
+"Hey, that's my ball!" the kid shouts. He tries to get the ball back. But the dog does not let go. He pulls and shakes the ball.
+
+The kid pulls too. He is angry. He yells at the dog.
+
+"Bad dog! Drop it! Drop it!"
+
+But the dog does not listen. He likes the ball. He thinks it is a game.
+
+The ball is not strong. It cannot take the pulling and shaking. It makes a loud pop. It tears in half. The air comes out. The ball is broken.
+
+The kid is sad. He cries. He loved his ball.
+
+The dog is confused. He drops the ball. He does not understand why the kid is crying.
+
+Lily and Ben are sorry. They go to the kid. They try to make him feel better.
+
+"We are sorry, kid," Lily says. "The dog did not mean to break your ball. He just wanted to play."
+
+"Can we share our toys with you?" Ben asks. "We have a frisbee and a rope. They are fun to play with."
+
+The kid looks at them. He wipes his tears. He nods.
+
+"Okay," he says. "Thank you. What are your names?"
+
+"I'm Lily and this is Ben," Lily says. "And this is the dog. He is brown and friendly. What is your name?"
+
+"I'm Max," the kid says. "Nice to meet you."
+
+They smile at each other. They become friends. They play with the dog and the toys. They have a good time. The dog is happy too. He wags his tail and licks their
+
+-----------------
+Index: 25
+Lily and Anna were best friends. They liked to play dress-up with their dolls and their mom's clothes. One day, they found a big box in the attic. It had many blouses, skirts, hats and shoes. They were very happy and took the box to Lily's room.
+
+"Look at this blouse!" Lily said. "It is pink and has flowers. It is very soft and pretty. I want to wear it."
+
+Anna looked at the blouse. She liked it too, but she saw a tag on it. It said "Do not wash. Dry clean only."
+
+"Lily, you can't wear that blouse," Anna said. "It is not for playing. It is for special days. And you can't wash it. It will get ruined."
+
+Lily did not listen to Anna. She was stubborn and wanted to wear the blouse. She put it on and looked at herself in the mirror. She felt like a princess.
+
+"Anna, don't be silly," Lily said. "This blouse is fine. It is just a blouse. And I can wash it later. Come on, let's play."
+
+Anna was worried, but she did not want to fight with Lily. She put on a skirt and a hat and joined Lily. They played with their dolls and pretended to have a tea party. They had fun, but they also made a mess. They spilled juice and crumbs on the floor and on their clothes.
+
+Suddenly, they heard Lily's mom coming up the stairs. They were scared. They knew they were in trouble. They tried to hide the box and the clothes, but it was too late. Lily's mom opened the door and saw them.
+
+"Lily! Anna! What have you done?" Lily's mom shouted. "You took my clothes without asking. And you ruined them. Look at this blouse. It is stained and torn. It was my favorite blouse. It was a gift from your grandma. How could you?"
+
+Lily felt very bad. She wanted to say sorry, but she could not. She knew she had done something wrong. She had dared to wear the blouse, and now it was gone. She looked at Anna. Anna looked sad and scared too. They both wished they had listened to Anna. They wished they had not played with the blouse. They wished they had a good ending. But they
+
+-----------------
+Index: 52
+Ben and Sam are brothers. They like to play with their toy phone. They pretend to call their friends and family. Sometimes they make funny noises and jokes.
+
+One day, they have a new idea. They want to call a cop. They think it is a fun game. They dial a random number on the toy phone and wait.
+
+"Ring, ring, ring," the toy phone makes a sound.
+
+"Hello, this is the cop. Who is this?" a voice says from the toy phone.
+
+Ben and Sam are surprised. They did not expect a real voice. They giggle and whisper to each other.
+
+"Let's say something silly," Ben says.
+
+"OK," Sam agrees.
+
+They take turns to talk to the cop. They say things like, "I am a monkey. Do you like bananas?" and "I have a big red nose. Can you honk it?"
+
+The cop is confused and annoyed. He does not like prank calls. He tries to find out who is calling him. He asks them their names and where they live.
+
+Ben and Sam do not tell the truth. They make up silly names and places. They say, "I am Bobo. I live in the zoo." and "I am Lulu. I live in the moon."
+
+The cop is angry. He thinks they are foolish. He says, "Stop calling me. This is not a joke. You are wasting my time. I have important work to do. If you call me again, I will find you and punish you."
+
+Ben and Sam are scared. They do not want to get in trouble. They hang up the toy phone and run away. They hide under the bed and hope the cop will not come.
+
+They learn their lesson. They do not call the cop again. They play with their toy phone in a nicer way. They say sorry to the cop in their hearts. They know it is wrong to bother people who are busy and helpful. They are not foolish anymore.
+
+-----------------
+Index: 63
+One day, a little girl named Anna went for a walk with her dog, Spot. They saw a big hedge with many flowers and bees. Anna liked the flowers and wanted to pick one for her mom. She reached for a yellow flower, but it was too high. She tried to pull it, but it was too strong.
+
+Spot saw Anna pulling the flower and barked. He wanted to help her. He ran to the hedge and jumped. He bit the flower and pulled hard. He was stronger than Anna, but the flower was stronger than him. He pulled and pulled, but the flower did not come out. Instead, he pulled the whole hedge!
+
+The hedge was enormous and heavy. It fell on the ground with a loud thud. It made a big mess. The flowers and the bees were gone. The hedge blocked the road and the sidewalk. Anna and Spot were scared. They heard people and cars coming. They did not know what to do.
+
+A man came out of the house behind the hedge. He saw the hedge on the ground and Anna and Spot near it. He was angry. He shouted at them and asked them why they pulled his hedge. Anna and Spot felt sorry. They told him they wanted a flower for mom. The man calmed down. He told them they should not pull things that are not theirs. He told them they should ask before they take something. He told them they should be careful and respectful of nature. He told them they should help him fix the hedge.
+
+Anna and Spot learned their lesson. They apologized to the man and helped him put the hedge back. They worked hard and made the hedge look nice again. The man thanked them and gave them a flower for mom. He told them they did a good job. Anna and Spot were happy. They thanked the man and went home. They gave the flower to mom and told her what happened. Mom hugged them and told them she was proud of them. She told them they were good and honest. She told them they should always remember the moral of the story: do not pull what is not yours.
+
+-----------------
+Index: 84
+Lily likes to help her mom in the garden. She brings a big bucket of water and a small shovel. She digs a hole and puts a bulb in it. A bulb is a round thing that can grow into a flower. Lily covers the bulb with dirt and gives it some water.
+
+She sees a bee flying near the bulb. She is scared of bees. They can sting and hurt. She runs to her mom and hugs her. Her mom tells her to be calm. The bee is not bad. It is looking for nectar in the flowers. It helps the flowers grow and makes honey.
+
+Lily feels better. She goes back to the garden with her mom. They plant more bulbs in different colors. Lily hopes they will grow into beautiful flowers. She likes to bring joy to the garden. She smiles and sings a song. She is calm and happy.
+<<<<<<<<<<Test example 2:
+Once upon a time, there were two clever kids named Max and Mia. They loved to play outside. One day, they found a shiny fork lying in the grass. They picked it up and said, "We can make something fun with this!"
+
+Max and Mia thought hard. Then Mia had a bright idea! She said, "Let’s make a flower!" They took the fork and pressed it into the dirt. They made pretty, pretty shapes that looked like petals. Max and Mia smiled at each other, proud of what they made.
+
+After that, they wanted to make a game. Max said, "Let’s pretend the fork is a magic wand!" They waved the fork and made silly spells. They laughed and spun around, feeling happy. They felt like the best friends ever.
+
+At the end of the day, Max and Mia looked at their flower and the magic wand. They knew they made fun all by themselves. As the sun set, they promised to play again tomorrow with the clever fork!
+
+<<<<<<<<<<Bottom 5 training examples for test example 2:
+
+-----------------
+Index: 25
+Lily and Anna were best friends. They liked to play dress-up with their dolls and their mom's clothes. One day, they found a big box in the attic. It had many blouses, skirts, hats and shoes. They were very happy and took the box to Lily's room.
+
+"Look at this blouse!" Lily said. "It is pink and has flowers. It is very soft and pretty. I want to wear it."
+
+Anna looked at the blouse. She liked it too, but she saw a tag on it. It said "Do not wash. Dry clean only."
+
+"Lily, you can't wear that blouse," Anna said. "It is not for playing. It is for special days. And you can't wash it. It will get ruined."
+
+Lily did not listen to Anna. She was stubborn and wanted to wear the blouse. She put it on and looked at herself in the mirror. She felt like a princess.
+
+"Anna, don't be silly," Lily said. "This blouse is fine. It is just a blouse. And I can wash it later. Come on, let's play."
+
+Anna was worried, but she did not want to fight with Lily. She put on a skirt and a hat and joined Lily. They played with their dolls and pretended to have a tea party. They had fun, but they also made a mess. They spilled juice and crumbs on the floor and on their clothes.
+
+Suddenly, they heard Lily's mom coming up the stairs. They were scared. They knew they were in trouble. They tried to hide the box and the clothes, but it was too late. Lily's mom opened the door and saw them.
+
+"Lily! Anna! What have you done?" Lily's mom shouted. "You took my clothes without asking. And you ruined them. Look at this blouse. It is stained and torn. It was my favorite blouse. It was a gift from your grandma. How could you?"
+
+Lily felt very bad. She wanted to say sorry, but she could not. She knew she had done something wrong. She had dared to wear the blouse, and now it was gone. She looked at Anna. Anna looked sad and scared too. They both wished they had listened to Anna. They wished they had not played with the blouse. They wished they had a good ending. But they
+
+-----------------
+Index: 66
+Lily and Ben are friends. They like to play in the park. They see a big brown dog. The dog is happy. He wags his tail and runs to them.
+
+"Hi, doggy!" Lily says. She pets the dog. The dog licks her face.
+
+"Can we play with you?" Ben asks. He throws a stick. The dog runs and brings it back.
+
+They play for a long time. The dog is very fast and strong. He can catch and fetch anything.
+
+But then, the dog sees a red ball. The ball belongs to another kid. The dog wants the ball. He runs and grabs it with his teeth.
+
+"Hey, that's my ball!" the kid shouts. He tries to get the ball back. But the dog does not let go. He pulls and shakes the ball.
+
+The kid pulls too. He is angry. He yells at the dog.
+
+"Bad dog! Drop it! Drop it!"
+
+But the dog does not listen. He likes the ball. He thinks it is a game.
+
+The ball is not strong. It cannot take the pulling and shaking. It makes a loud pop. It tears in half. The air comes out. The ball is broken.
+
+The kid is sad. He cries. He loved his ball.
+
+The dog is confused. He drops the ball. He does not understand why the kid is crying.
+
+Lily and Ben are sorry. They go to the kid. They try to make him feel better.
+
+"We are sorry, kid," Lily says. "The dog did not mean to break your ball. He just wanted to play."
+
+"Can we share our toys with you?" Ben asks. "We have a frisbee and a rope. They are fun to play with."
+
+The kid looks at them. He wipes his tears. He nods.
+
+"Okay," he says. "Thank you. What are your names?"
+
+"I'm Lily and this is Ben," Lily says. "And this is the dog. He is brown and friendly. What is your name?"
+
+"I'm Max," the kid says. "Nice to meet you."
+
+They smile at each other. They become friends. They play with the dog and the toys. They have a good time. The dog is happy too. He wags his tail and licks their
+
+-----------------
+Index: 63
+One day, a little girl named Anna went for a walk with her dog, Spot. They saw a big hedge with many flowers and bees. Anna liked the flowers and wanted to pick one for her mom. She reached for a yellow flower, but it was too high. She tried to pull it, but it was too strong.
+
+Spot saw Anna pulling the flower and barked. He wanted to help her. He ran to the hedge and jumped. He bit the flower and pulled hard. He was stronger than Anna, but the flower was stronger than him. He pulled and pulled, but the flower did not come out. Instead, he pulled the whole hedge!
+
+The hedge was enormous and heavy. It fell on the ground with a loud thud. It made a big mess. The flowers and the bees were gone. The hedge blocked the road and the sidewalk. Anna and Spot were scared. They heard people and cars coming. They did not know what to do.
+
+A man came out of the house behind the hedge. He saw the hedge on the ground and Anna and Spot near it. He was angry. He shouted at them and asked them why they pulled his hedge. Anna and Spot felt sorry. They told him they wanted a flower for mom. The man calmed down. He told them they should not pull things that are not theirs. He told them they should ask before they take something. He told them they should be careful and respectful of nature. He told them they should help him fix the hedge.
+
+Anna and Spot learned their lesson. They apologized to the man and helped him put the hedge back. They worked hard and made the hedge look nice again. The man thanked them and gave them a flower for mom. He told them they did a good job. Anna and Spot were happy. They thanked the man and went home. They gave the flower to mom and told her what happened. Mom hugged them and told them she was proud of them. She told them they were good and honest. She told them they should always remember the moral of the story: do not pull what is not yours.
+
+-----------------
+Index: 83
+The sun was bright and warm as Sandy and her mom walked to the park. Sandy held her mom's hand as they skipped across the street, giggling and smiling. 
+
+When they got to the park, Sandy spotted a big machine. It had a big round lens on top and it looked a bit like a microscope! 
+
+Sandy asked her mom, "Mommy, what's that?". 
+Her mom said "That, sweetie, is a reversing machine! It does something very special." 
+
+Sandy was intrigued and asked, "What does it do?". 
+Her mom smiled and said, "Well, it reverses things, silly! You put something in and it comes out the other side all changed around! " 
+
+Sandy wanted to see it for herself, so she ran over to the machine and pressed all the buttons. But when something came out, it wasn't reversed at all - it was exactly the same! Sandy was very confused. 
+
+Her mom came over and said, "Oh, sweetie, that's not how it works. You have to put something in first, then put the reverse button on and press it one more time! Let's give it a try again!" 
+
+And so they did. This time, when something came out of the machine, it was all changed around - just like magic! Sandy smiled and laughed with excitement. She was thrilled - it was
+
+-----------------
+Index: 52
+Ben and Sam are brothers. They like to play with their toy phone. They pretend to call their friends and family. Sometimes they make funny noises and jokes.
+
+One day, they have a new idea. They want to call a cop. They think it is a fun game. They dial a random number on the toy phone and wait.
+
+"Ring, ring, ring," the toy phone makes a sound.
+
+"Hello, this is the cop. Who is this?" a voice says from the toy phone.
+
+Ben and Sam are surprised. They did not expect a real voice. They giggle and whisper to each other.
+
+"Let's say something silly," Ben says.
+
+"OK," Sam agrees.
+
+They take turns to talk to the cop. They say things like, "I am a monkey. Do you like bananas?" and "I have a big red nose. Can you honk it?"
+
+The cop is confused and annoyed. He does not like prank calls. He tries to find out who is calling him. He asks them their names and where they live.
+
+Ben and Sam do not tell the truth. They make up silly names and places. They say, "I am Bobo. I live in the zoo." and "I am Lulu. I live in the moon."
+
+The cop is angry. He thinks they are foolish. He says, "Stop calling me. This is not a joke. You are wasting my time. I have important work to do. If you call me again, I will find you and punish you."
+
+Ben and Sam are scared. They do not want to get in trouble. They hang up the toy phone and run away. They hide under the bed and hope the cop will not come.
+
+They learn their lesson. They do not call the cop again. They play with their toy phone in a nicer way. They say sorry to the cop in their hearts. They know it is wrong to bother people who are busy and helpful. They are not foolish anymore.
