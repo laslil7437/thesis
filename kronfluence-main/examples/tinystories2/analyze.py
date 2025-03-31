@@ -34,6 +34,27 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Influence analysis on WikiText dataset.")
 
     parser.add_argument(
+        "--num_top", 
+        type=int,
+        default=5,
+        help="Number of top training examples to print for each test example.",
+    )
+    
+    parser.add_argument(
+        "--num_train_docs",
+        type=int,
+        default=None,
+        help="Number of training documents to consider. Default is all",
+    )
+    
+    parser.add_argument(
+        "--num_test_docs",
+        type=int,
+        default=None,
+        help="Number of test documents to consider. Default is all.",
+    )
+
+    parser.add_argument(
         "--checkpoint_dir",
         type=str,
         default="./checkpoints",
@@ -153,10 +174,13 @@ def main():
     args = parse_args()
     logging.basicConfig(level=logging.INFO)
 
-    # Prepare the dataset.
-    # 100 samples for training and 2 samples for evaluation.
-    train_dataset = get_tinystories_dataset(split="eval_train", num_samples=100)
-    eval_dataset = get_tinystories_dataset(split="valid", num_samples=2)
+    # Prepare the dataset. Get specified number of training and test documents if given; otherwise, all. 
+    if args.num_train_docs is not None:
+        train_dataset = get_tinystories_dataset(split="eval_train", num_samples=args.num_train_docs)
+        eval_dataset = get_tinystories_dataset(split="valid", num_samples=args.num_test_docs)
+    else: 
+        train_dataset = get_tinystories_dataset(split="eval_train")
+        eval_dataset = get_tinystories_dataset(split="valid")
     
     # Prepare the trained model.
     model = construct_gpt2()
@@ -246,56 +270,65 @@ def main():
     logging.info(f"Scores shape: {scores.shape}")
     
     
-    # print("Visualizing pairwise scores...")
-    # score_args = ScoreArguments(compute_per_module_scores=True)
-    # analyzer.compute_pairwise_scores(
-    #     score_args=score_args,
-    #     scores_name=scores_name,
-    #     factors_name=factors_name,
-    #     query_dataset=eval_dataset,
-    #     train_dataset=train_dataset,
-    #     per_device_query_batch_size=args.query_batch_size,
-    #     overwrite_output_dir=False,
-    # )
-    # per_module_scores = analyzer.load_pairwise_scores(scores_name=scores_name)
-    # per_module_scores.keys()    
-    # plt.matshow(per_module_scores['all_modules'])
-    # plt.colorbar()
-    # plt.savefig("output2.png")  
+    print("Visualizing pairwise scores...")
+    score_args = ScoreArguments(compute_per_module_scores=True)
+    analyzer.compute_pairwise_scores(
+        score_args=score_args,
+        scores_name=scores_name,
+        factors_name=factors_name,
+        query_dataset=eval_dataset,
+        train_dataset=train_dataset,
+        per_device_query_batch_size=args.query_batch_size,
+        overwrite_output_dir=False,
+    )
+    per_module_scores = analyzer.load_pairwise_scores(scores_name=scores_name)
+    per_module_scores.keys()    
+    plt.matshow(per_module_scores['all_modules'])
+    plt.colorbar()
+    plt.savefig("pairwise_scores_plot.png")
     
     # order the scores per test example, and print corresponding tokenized top 5 training documents
     tokenizer = AutoTokenizer.from_pretrained("gpt2", use_fast=True, trust_remote_code=True)
     tokenizer.pad_token = tokenizer.eos_token
 
-    # top 5 highest scores in descending order
-    top5_indices = scores.argsort(axis=1)[:, -5:]
-    # top 5 training examples for each test example
-    top5_input_ids = [train_dataset['input_ids'][i] for i in top5_indices.flatten()]
-    top5_tokenized = [tokenizer.decode(ids, skip_special_tokens=True) for ids in top5_input_ids]
 
-    with open('top5.txt', 'w') as f:
-        for i in range(len(top5_tokenized)):
-            if i % 5 == 0:
-                f.write("<<<<<<<<<<Test example %d:\n" % (i // 5 + 1))
-                f.write("%s\n" % tokenizer.decode(eval_dataset['input_ids'][i // 5], skip_special_tokens=True))
-                f.write("\n<<<<<<<<<<Top 5 training examples for test example %d:\n" % (i // 5 + 1))
+    # number of top/bottom docs to record
+    n = args.num_top
+    
+    # top n highest scores in descending order
+    top_indices = scores.argsort(axis=1)[:, -n:]
+    # top training examples for each test example
+    top_input_ids = [train_dataset['input_ids'][i] for i in top_indices.flatten()]
+    top_tokenized = [tokenizer.decode(ids, skip_special_tokens=True) for ids in top_input_ids]
+    # write to file
+    with open(f'top{n}.txt', 'w') as f:
+        for i in range(len(top_tokenized)):
+            if i % n == 0:
+                f.write("\n----------------------------------\n")
+                f.write("\n----------------------------------\n")
+                f.write("\n<<<<<<<<<<Test example %d:\n" % (i // n + 1))
+                f.write("%s\n" % tokenizer.decode(eval_dataset['input_ids'][i // n], skip_special_tokens=True))
+                f.write("\n<<<<<<<<<<Top training examples for test example %d:\n" % (i // n + 1))
             f.write("\n-----------------\n")
-            f.write("Index: %d\n" % top5_indices[i // 5, i % 5])
-            f.write("%s\n" % top5_tokenized[i])
+            f.write("Index: %d\n" % top_indices[i // n, i % n])
+            f.write("Score: %f\n" % scores[i // n, i % n])
+            f.write("%s\n" % top_tokenized[i])
    
-    # top 5 lowest scores
-    bottom5_indices = scores.argsort(axis=1)[:, :5]
-    bottom5_input_ids = [train_dataset['input_ids'][i] for i in bottom5_indices.flatten()]
-    bottom5_tokenized = [tokenizer.decode(ids, skip_special_tokens=True) for ids in bottom5_input_ids]
-    with open('bottom5.txt', 'w') as f: 
-        for i in range(len(bottom5_tokenized)):
-            if i % 5 == 0:
-                f.write("<<<<<<<<<<Test example %d:\n" % (i // 5 + 1))
-                f.write("%s\n" % tokenizer.decode(eval_dataset['input_ids'][i // 5], skip_special_tokens=True))
-                f.write("\n<<<<<<<<<<Bottom 5 training examples for test example %d:\n" % (i // 5 + 1))
+    bottom_indices = scores.argsort(axis=1)[:, :n]
+    bottom_input_ids = [train_dataset['input_ids'][i] for i in bottom_indices.flatten()]
+    bottom_tokenized = [tokenizer.decode(ids, skip_special_tokens=True) for ids in bottom_input_ids]
+    with open(f'bottom{n}.txt', 'w') as f: 
+        for i in range(len(bottom_tokenized)):
+            if i % n == 0:
+                f.write("\n----------------------------------\n")
+                f.write("\n----------------------------------\n")
+                f.write("\n<<<<<<<<<<Test example %d:\n" % (i // n + 1))
+                f.write("%s\n" % tokenizer.decode(eval_dataset['input_ids'][i // n], skip_special_tokens=True))
+                f.write("\n<<<<<<<<<<Bottom training examples for test example %d:\n" % (i // n + 1))
             f.write("\n-----------------\n")
-            f.write("Index: %d\n" % bottom5_indices[i // 5, i % 5])
-            f.write("%s\n" % bottom5_tokenized[i])
+            f.write("Index: %d\n" % bottom_indices[i // n, i % n])
+            f.write("Score: %f\n" % scores[i // n, i % n])
+            f.write("%s\n" % bottom_tokenized[i])
 
 if __name__ == "__main__":
     main()

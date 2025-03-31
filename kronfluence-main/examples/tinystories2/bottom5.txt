@@ -9,7 +9,7 @@ Lucy jumped and splashed in every puddle she could find. She couldn't believe ho
 
 The boy laughed and said, "Sure, come and follow me!" So the two of them slid down the slide together, laughing and smiling the whole way. When the fun was done, Lucy thanked the boy and waved goodbye. What an adventure!
 
-<<<<<<<<<<Bottom 5 training examples for test example 1:
+<<<<<<<<<<Bottom training examples for test example 1:
 
 -----------------
 Index: 66
@@ -131,7 +131,7 @@ After that, they wanted to make a game. Max said, "Let’s pretend the fork is a
 
 At the end of the day, Max and Mia looked at their flower and the magic wand. They knew they made fun all by themselves. As the sun set, they promised to play again tomorrow with the clever fork!
 
-<<<<<<<<<<Bottom 5 training examples for test example 2:
+<<<<<<<<<<Bottom training examples for test example 2:
 
 -----------------
 Index: 25
