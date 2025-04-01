@@ -163,9 +163,9 @@ cython_debug/
 .DS_Store
 
 # Checkpoints and influence outputs
-checkpoints/
-influence_results/
-data/
-cache/
+# checkpoints/
+# influence_results/
+# data/
+# cache/
 *.pth
 *.pt
